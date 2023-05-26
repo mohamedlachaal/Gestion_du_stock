@@ -1,0 +1,131 @@
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.bg-orange{
+   color: #18116d85 ;
+}
+.bg-noir{
+   background-color: #0c0f0f !important;
+}
+.navbar{
+
+   min-height: 150px;
+   border-bottom: 5px solid #E7A72D ;
+   
+}
+.navbar img{
+   height: 150px;
+    width: 250px !important;
+      
+
+       
+    
+       
+     
+}
+
+.navbar li:hover{
+   background-color: #64578f ;
+}
+
+.navbar a{
+   color: #E7A72D !important ;
+   
+   font-family: font;
+}
+.navbar li:hover a{
+   color: #131313 !important;
+}
+
+
+.carousel {
+   margin-top: 150px;
+}
+.carousel-caption{
+   background-color: rgba(15, 8, 8, 0.75);
+   max-height: fit-content ;
+   top: 40%;
+   bottom: 40% !important;
+  
+}
+.carousel-caption h3{
+   font-size: 2rem;
+   color: #E7A72D ;
+}
+.carousel-caption h1{
+   color: #E7A72D ;
+}
+.blockquote{
+   text-align: center;
+   font-family: font;
+}
+.blockquote p{
+   font-size: 3em;
+}
+.blockquote footer{
+   font-size: 1em;
+}
+#paralax{
+   background-image: url("gestion1.jpg");
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 600px;
+}
+#paralax_caption{
+   background-color: rgba(46, 88, 106, 0.75); ;
+   text-align: center !important;
+}
+#paralax_caption h2{
+   color: #6d0909 !important;
+   font-size: 2rem !important;
+}
+#paralax_caption p{
+   color: #0e0303 !important;
+   font-size: 1.2rem !important;
+}
+.card{
+   text-align: center !important;
+}
+.container{
+   width: 100% !important;
+   margin-top: 50px !important;
+
+}
+
+#map {
+   width: 30em;
+   height: 22.3em;
+}
+
+
+
+
+#Section_Staf {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 1.5em;
+}
+
+
+
+#Box_Info_Staf {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content:space-between;
+   margin: 2em 0 2em 0;
+}
+footer{
+   text-align: center !important;
+   position: relative;
+   color: #E7A72D;
+   background-color: #131313;
+   height: 100px;
+}
